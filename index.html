@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping With JS</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.50.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- NAV BAR  -->
+    <header>
+      <div class="navbar bg-base-100 shadow-lg">
+        <div class="flex-1">
+          <a class="btn btn-ghost normal-case text-2xl font-bold"
+            >Shopping Daily</a
+          >
+        </div>
+        <div class="flex-none gap-2">
+          <div class="form-control">
+            <input
+              type="text"
+              placeholder="Search"
+              class="input input-bordered"
+            />
+          </div>
+          <div class="dropdown dropdown-end">
+            <label tabindex="0" class="btn btn-ghost btn-circle avatar">
+              <div class="w-10 rounded-full">
+                <img src="https://picsum.photos/500/300?random=4" />
+              </div>
+            </label>
+            <ul
+              tabindex="0"
+              class="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52"
+            >
+              <li>
+                <a class="justify-between">
+                  Profile
+                  <span class="badge">New</span>
+                </a>
+              </li>
+              <li><a>Settings</a></li>
+              <li><a>Logout</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="lg:px-12 flex">
+      <!-- product one  -->
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-4 gap-6 w-[65%]"
+      >
+        <div class="card card-compact mx-auto bg-base-100 shadow-2xl">
+          <figure>
+            <img
+              src="https://fdn2.gsmarena.com/vv/pics/google/google-pixel-6-pro-1.jpg"
+              class="w-full h-40"
+              alt="Shoes"
+            />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Google Pixel 6 Pro</h2>
+            <p>
+              With an incredible camera array and the promise that Tensor provides, the Pixel 6 Pro is certainly a good choice for Android enthusiasts. It has enough power for any task and it is a wonderful camera phone
+            </p>
+            <p>Price: $ <span>889</span></p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary myBtn">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card card-compact w-full bg-base-100 shadow-2xl">
+          <figure>
+            <img
+              src="https://fdn2.gsmarena.com/vv/pics/google/google-pixel-6-1.jpg"
+              class="w-full h-40"
+              alt="Shoes"
+            />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Google Pixel 6</h2>
+            <p>
+              We love its unique design, sharp display, customisable interface and excellent camera. While the more affordable Pixel 6a is the best value Google phone in 2022, the Pixel 6 has a better 50MP camera, a higher refresh rate and wireless charging.
+            </p>
+            <p>Price: $ <span>599</span></p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary myBtn">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card card-compact w-full bg-base-100 shadow-2xl">
+          <figure>
+            <img
+              src="https://fdn2.gsmarena.com/vv/pics/google/google-pixel-5a-5g-00.jpg"
+              class="w-full h-40"
+              alt="Shoes"
+            />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Google Pixel 5a 5G</h2>
+            <p>
+              The Pixel 5a is a good phone for its price. If you have never owned a Pixel phone before and are looking for a cost-effective entry point, this is worth a look. However, if you already own a recent Pixel device, such as the Pixel 5 or Pixel 4a 5G, there isn't any reason to upgrade.
+            </p>
+            <p>Price: $ <span>449</span></p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary myBtn">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card card-compact w-full bg-base-100 shadow-2xl">
+          <figure>
+            <img
+              src="https://fdn2.gsmarena.com/vv/pics/google/google-pixel-5-5g-1.jpg"
+              class="w-full h-40"
+              alt="Shoes"
+            />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Google Pixel 4 XL</h2>
+            <p>
+              The Google Pixel 4 XL will worth to be used for one year, or maximum two, but it is better to think in getting a Google Pixel 5 or Pixel 6.
+            </p>
+            <p>Price: $ <span>365</span></p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary myBtn">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card card-compact w-full bg-base-100 shadow-2xl">
+          <figure>
+            <img
+              src="https://fdn2.gsmarena.com/vv/pics/google/google-pixel-4-xl-1.jpg"
+              class="w-full h-40"
+              alt="Shoes"
+            />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Google Pixel 4</h2>
+            <p>
+              Amazon currently sells the Pixel 4A 5G for the same price as the Pixel 6A, and while it's a good phone, it should be cheaper. You're better off sticking with the Pixel 6A. As for older Pixels, they're not worth picking up. They're just too old (and the Pixel 4 suffers from poor battery performance).
+            </p>
+            <p>Price: $ <span>170</span></p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary myBtn">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- cart  -->
+      <div class="w-[30%] mx-auto">
+        <h1 class="text-center text-3xl mt-4 font-bold">
+          Total Added Products:
+          <span class="text-blue-500" id="total-product">0</span>
+        </h1>
+        <div class="overflow-x-auto">
+          <table class="table w-full">
+            <!-- head -->
+            <thead>
+              <tr>
+                <th>Quantity</th>
+                <th>Name</th>
+                <th>Price</th>
+              </tr>
+            </thead>
+            <tbody id="cart-products"></tbody>
+          </table>
+        </div>
+      </div>
+    </main>
+
+    <footer></footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
